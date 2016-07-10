@@ -44,7 +44,9 @@ angular.module("chatApp").controller("mainCtrl", function($scope, mainServ) {
 });
 ```
 ```
-angular.module("chatApp").service("mainServ", function($http) {});
+angular.module("chatApp").service("mainServ", function($http) {
+  //code goes here
+});
 ```
 
 * Before we start adding functionality, let's test the controller by plugging in a test value like `$scope.test = "test"`. In your index.html file add the variable in double curly brackets like this `{{test}}`. Make sure that your test value shows up in your view when you run this on live-server or nodemon. If that worked, remove your test code.
