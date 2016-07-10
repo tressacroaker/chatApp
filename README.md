@@ -10,7 +10,7 @@ Fork and clone this repository. Complete all of the following steps. When you ha
 
 * Review the code that is already built in your folder. I have setup the backend server and database for you. Don't forget to do an npm install.
 
-* Create the files necessary to build your Angular app. Be sure to include index.html, app.js, mainCtrl.js, and mainServ.js. Organize these files in whatever folder structure you are most comfortable with.
+* Inside your public folder, create the files necessary to build your Angular app. Be sure to include index.html, app.js, mainCtrl.js, and mainServ.js. Organize these files in whatever folder structure you are most comfortable with.
 
 * Starting with your index.html, be sure to call in the Angular CDN and all of your JavaScript files in script tags.
 
