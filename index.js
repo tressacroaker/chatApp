@@ -21,7 +21,7 @@ var mongoUri = "mongodb://localhost:27017/chatApp";
 mongoose.connect(mongoUri);
 mongoose.connection.on('error', console.error.bind(console, 'connection error'));
 mongoose.connection.once('open', function(){
-  console.log("Connected to mongoDB");
+  console.log("Tressa is Connected to mongoDB");
 });
 
 app.listen(8000, function(){
